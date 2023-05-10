@@ -1,0 +1,30 @@
+#mainPage{
+    display : grid;
+    grid-template-rows : 100px auto;
+    grid-template-columns: 1fr 900px 1fr;
+    justify-content: center;
+
+
+}
+
+nav {
+    grid-column : 1/4;
+    grid-row : 1/2;
+}
+
+#sidebar {
+    grid-column : 1/2;
+    grid-row : 2/3;
+    justify-self : end;
+}
+
+#planInfo {
+    grid-column : 2/3;
+    grid-row : 2/3;
+}
+
+#userInfo {
+    grid-column : 3/4;
+    grid-row : 2/3;
+    justify-self : start;
+}

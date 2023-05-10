@@ -1,0 +1,49 @@
+#loginComponent{
+    display : flex;
+    flex-direction: column;
+    width : 100%;
+    height : 100%; 
+    align-items: center;
+    justify-content: center;
+    font-size : 40px;
+    font-weight : bolder;
+    color : white;
+}
+
+#login input{
+    background-color: white;
+    border : 1px solid plum;
+    color : #404040;
+    border-radius : 10px;
+    width : 300px;
+    font-size : 20px;
+    letter-spacing: 2px;
+    padding : 10px 20px;
+    margin : 10px 10px;
+}
+
+#login button {
+    background-color: plum;
+    border : none;
+    border-radius : 10px;
+    padding : 10px 20px;
+}
+
+button#signUp{
+    width : 210px;
+    height: 40px;
+    background-color: white;
+    border : 1px solid lightgrey;
+    border-radius: 3px;
+    font-size : 15px;
+    margin : 10px auto;
+    vertical-align: middle;
+}
+
+#thumbnail{
+    position : relative;
+    right : 50px;
+    height : 25px;
+    width : 35px;
+    vertical-align:text-bottom;
+}

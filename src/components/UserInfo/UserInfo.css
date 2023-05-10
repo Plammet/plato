@@ -1,0 +1,18 @@
+#userInfo{
+    position: relative;
+    right : 50px;
+    width : 250px;
+    height : 500px;
+    margin : 30px 0px;
+    padding : 20px 20px;
+    border : 1px solid lightgrey;
+    border-radius : 20px;
+    vertical-align: top;
+}
+
+@media (max-width:1300px){
+    #userInfo{
+        display:none;
+    }
+}
+

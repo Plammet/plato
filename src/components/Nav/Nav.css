@@ -1,0 +1,29 @@
+nav {
+    width : 90%;
+    margin : auto;
+    height : 80px;
+    vertical-align: middle;
+    border-bottom : 1px solid lightgrey;
+}
+
+#mainLogo {
+    float : left;
+    margin : 10px 10px 20px 20px;
+    height : 60px;
+}
+
+.rightMenu{
+    float : right;
+    vertical-align: middle;
+    padding : 10px 10px;
+    margin : 20px 0px;
+    background-color: transparent;
+    border : none;
+    font-size : 13px;
+    border-bottom : none;
+    transition : background-color 0.5s;
+}
+
+.rightMenu:hover{
+    color : darkviolet
+}

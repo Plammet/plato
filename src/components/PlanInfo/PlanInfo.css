@@ -1,0 +1,66 @@
+#planInfo{
+    border : 1px solid lightgrey;
+    border-radius:30px;
+    width : 800px;
+    height : 250px;
+    margin : 30px 0px 30px 10px;
+    text-align : left;
+    vertical-align: top;
+    overflow : hidden;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+#planInfo:hover{
+    border : 3px solid lightgrey;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.info{
+    vertical-align: middle;
+    float : left;
+    padding : 20px 20px;
+    width : 600px;
+}
+
+#title{
+    font-size : 30px;
+    font-weight : bold;
+    line-height: 80px;
+}
+
+#description{
+    color : #AAAAAA;
+    font-size : 14px;
+    margin-bottom : 10px;
+    height : 60px;
+}
+
+#duration,#term{
+    font-size : 15px;
+    line-height : 25px;
+}
+
+.joining{
+    float : right;
+    height : 100%;
+    background-color: darkorchid;
+    color : white;
+    font-weight : bold;
+    padding : 60px 0px;
+    width : 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.joining:hover{
+    background-color: darkmagenta;
+    transition : 0.5s;
+}
+
+.joining #number{
+    font-size : 40px;
+    line-height: 70px;
+    font-weight : bolder;
+    vertical-align : baseline;
+}
+

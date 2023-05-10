@@ -1,0 +1,15 @@
+#sidebar{
+    width : 200px;
+    height : 500px;
+    padding : 20px;
+    margin : 30px 20px;
+    border : 1px solid lightgrey;
+    border-radius : 20px;
+}
+
+@media (max-width:1000px){
+    #sidebar{
+        display:none;
+    }
+}
+
